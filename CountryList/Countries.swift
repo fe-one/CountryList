@@ -13,6 +13,7 @@ class Countries {
     var countries: [Country] = {
         var countries: [Country] = []
         
+        countries.append(Country(countryCode: "test", phoneExtension: "00"))
         countries.append(Country(countryCode: "AF", phoneExtension: "93"))
         countries.append(Country(countryCode: "AL", phoneExtension: "355"))
         countries.append(Country(countryCode: "DZ", phoneExtension: "213"))
